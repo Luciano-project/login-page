@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+}
+
+body{
+
+    margin: 120px auto auto auto;
+    background: linear-gradient(48.15deg, #F06CA4 15.62%, #54D7F0 40.61%);
+    padding: auto;
+    width: 1048px;
+    height: 480px;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    display: flex;
+    font-size: 50px;
+    justify-content: space-around;
+    color: white;
+}
+
+h2{
+    font-family: 'Righteous', cursive;
+    color: #5E4FFA
+}
+
+p{
+    text-align: center;
+    padding: 5%;
+    color: white;
+}
+
+.page-company-logo{
+    border: none;
+    color: white;
+    font-size: 19px;
+    padding: 10px 0 0 25px;
+}
+
+.page-register {
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  width: 1048px;
+  height: 480px;
+  margin: auto;
+  background: linear-gradient(68.15deg, #50C9CD 16.62%, #2686A4 55.61%);
+  justify-content:center;
+}
+
+.page-register1{
+    position:relative;
+    top: 40px;
+    left: 15px;
+}
+
+.page-register-sec1{
+   padding: 15% 0 0 0;
+}
+
+.page-register-sec1-text{
+    text-align: center;
+    text-color: white;
+}
+
+.page-register-sec2{
+   border: none;
+   border-radius: 0 50px 50px 0;
+   padding: 5% 15px 0px 75px;
+   background: white;
+   margin: 0 0 0 15px;
+}
+
+.page-register-form{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px 0px 0px;
+}
+
+.page-register-form-item{
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    width: 250px;
+    height: 40px;
+}
+
+.page-register-form-checkbox{
+    margin-right: 15px;
+}
+
+.label-form{
+    display:flex;
+    margin:30px 0px 0px 10px;
+    font-size: 13px;
+}
+
+.page-register-form-button{
+font-family: 'Righteous', cursive;
+    padding:10px 50px 10px 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 5px;
+    color:#5E4FFA;
+}
+
+.page-register-form-button:hover{
+    background-color: rgba(94,79,250,0.98);
+    color: white;
+}
+
+.page-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.copyright{
+    position: relative;
+    bottom: 40px;
+    left: 280px;
+    color: white;
+}
